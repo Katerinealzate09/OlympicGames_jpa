@@ -9,6 +9,7 @@ import javax.persistence.Query;
 import org.springframework.stereotype.Repository;
 
 import co.com.udem.OlympicGames.jpa.entities.Home;
+import co.com.udem.OlympicGames.model.HomeDTO;
 
 @Repository
 public class HomeDAOImpl implements HomeDAO{
@@ -24,5 +25,11 @@ public class HomeDAOImpl implements HomeDAO{
 		Query query = em.createQuery("SELECT n FROM Home n");
 		return query.getResultList();
 	}
+
+	public List<HomeDTO> findHomeDTO() {
+		Query query = em.createQuery("SELECT NEW co.com.udem.OlympicGames.model.HomeDTO(n.title, n.image, n.url) FROM Home n");
+		return query.getResultList();
+	}
+
 
 }

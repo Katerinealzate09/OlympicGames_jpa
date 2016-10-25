@@ -26,7 +26,7 @@ public class NewsDAOImpl implements NewsDAO{
 	public List<News> findNews() {
 		Query query = em.createQuery("SELECT n FROM News n");
 		return query.getResultList();
-	}
+	} 
 
 	public List<NewsDTO> findNewsDTO() {
 		Query query = em.createQuery("SELECT NEW co.com.udem.OlympicGames.model.NewsDTO(n.title, n.description, n.image, n.newsUrl)FROM News n");

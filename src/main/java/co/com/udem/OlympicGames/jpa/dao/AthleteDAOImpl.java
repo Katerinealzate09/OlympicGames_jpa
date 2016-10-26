@@ -6,9 +6,12 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 
+import org.springframework.stereotype.Repository;
+
 import co.com.udem.OlympicGames.jpa.entities.Athlete;
 import co.com.udem.OlympicGames.model.AthletesDTO;
 
+@Repository
 public class AthleteDAOImpl implements AthleteDAO{
 
 	@PersistenceContext

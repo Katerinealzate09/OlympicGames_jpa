@@ -10,6 +10,5 @@ public interface HomeDAO {
 	public Home findHome(int id);
 	public List<Home>findHome();
 	public List<HomeDTO>findHomeDTO();
-	
 
 }

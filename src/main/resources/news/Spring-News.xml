@@ -15,6 +15,9 @@
 	<bean id="athleteDAO" class="co.com.udem.OlympicGames.jpa.dao.AthleteDAOImpl">
 		<property name="dataSource" ref="dataSource"></property>
 	</bean>
-
+	
+	<bean id="arenaDAO" class="co.com.udem.OlympicGames.jpa.dao.ArenaDAOImpl">
+		<property name="dataSource" ref="dataSource"></property>
+	</bean>
 
 </beans>

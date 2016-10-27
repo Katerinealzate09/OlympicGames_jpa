@@ -8,6 +8,7 @@
 		<class>co.edu.udem.olympicgames.jpa.enities.News</class>
 		<class>co.edu.udem.olympicgames.jpa.enities.Home</class>
 		<class>co.edu.udem.olympicgames.jpa.enities.Athlete</class>
+		<class>co.edu.udem.olympicgames.jpa.enities.Arena</class>
 	</persistence-unit>
 
 </persistence>

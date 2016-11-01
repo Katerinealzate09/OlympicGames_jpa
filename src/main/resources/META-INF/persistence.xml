@@ -9,6 +9,7 @@
 		<class>co.edu.udem.olympicgames.jpa.enities.Home</class>
 		<class>co.edu.udem.olympicgames.jpa.enities.Athlete</class>
 		<class>co.edu.udem.olympicgames.jpa.enities.Arena</class>
+		<class>co.edu.udem.olympicgames.jpa.enities.Medal</class>
 	</persistence-unit>
 
 </persistence>

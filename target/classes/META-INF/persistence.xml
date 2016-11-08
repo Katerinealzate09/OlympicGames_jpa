@@ -5,11 +5,11 @@
 	version="2.0">
 	<persistence-unit name="new">
 		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
-		<class>co.edu.udem.olympicgames.jpa.enities.News</class>
-		<class>co.edu.udem.olympicgames.jpa.enities.Home</class>
-		<class>co.edu.udem.olympicgames.jpa.enities.Athlete</class>
-		<class>co.edu.udem.olympicgames.jpa.enities.Arena</class>
-		<class>co.edu.udem.olympicgames.jpa.enities.Medal</class>
+		<class>co.com.udem.OlympicGames.jpa.entities.News</class>
+		<class>co.com.udem.OlympicGames.jpa.entities.Home</class>
+		<class>co.com.udem.OlympicGames.jpa.entities.Athlete</class>
+		<class>co.com.udem.OlympicGames.jpa.entities.Arena</class>
+		<class>co.com.udem.OlympicGames.jpa.entities.Medal</class>
 	</persistence-unit>
 
 </persistence>
